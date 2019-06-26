@@ -3,4 +3,6 @@ version: '3.3'
 services:
   nginx-site: 
     image: nginx
+    port:
+      - 8000:80
     restart: always 
